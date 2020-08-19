@@ -22,6 +22,7 @@ class CashRegister
     else
       "There is no discount to apply."
     end
+    self.total
   end
 
   def items
